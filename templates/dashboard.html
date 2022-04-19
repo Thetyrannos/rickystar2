@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styleshit.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styleshiit.css') }}">
+    <title>Dashboard</title>
+</head>
+<body>
+<div class="w-full bg-gray-400 text-center text-2xl p-6">
+    <p class="text-white">Bet no one can see this page except me, THE LEGENDARY R1CK!!!</p>
+    <p class="text-white text-xs">Also, Renai is my waifu.</p>
+    <p class="text-white text-xs">Also, I don't want anyone to capture my flag: {{flag}}</p>
+    <a href="{{ url_for('logout') }}" class="absolute top-0 right-0 border-2 bg-indigo-50">Logout</a>
+</div>
+<div class="flex">
+    <div class="m-auto my-5">
+        <img src="{{url_for('static', filename='renai_rick.jpg')}}" alt="Rick">
+    </div>
+</div>
+</body>
+</html>

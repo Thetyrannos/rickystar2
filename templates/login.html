@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styleshit.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styleshiit.css') }}">
+    <title>Hello</title>
+</head>
+<body>
+<div class="flex h-screen">
+    <div class="m-auto border-2 border-slate-400 rounded-lg p-6">
+        <form action="" method="get">
+            <label>
+                <b>Tên đăng nhập</b>
+                <input class="block" type="text" name="username" placeholder="Nhập tên đăng nhập"><br>
+            </label>
+            <label>
+                <b>Mật khẩu</b>
+                <input class="block" type="password" name="password" placeholder="Nhập mật khẩu"><br>
+            </label>
+            <div>
+                <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex"
+                        type="submit"
+                        value="Login">Login
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
