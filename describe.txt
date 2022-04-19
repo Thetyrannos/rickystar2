@@ -1,0 +1,4 @@
+Changelog:
+A̶d̶d̶ ̶y̶o̶u̶t̶u̶b̶e̶ ̶p̶r̶e̶v̶i̶e̶w̶ ̶m̶o̶d̶e̶
+̶A̶d̶m̶i̶n̶ ̶p̶a̶g̶e̶ ̶n̶o̶w̶ ̶o̶n̶l̶y̶ ̶a̶c̶c̶e̶s̶s̶i̶b̶l̶e̶ ̶f̶r̶o̶m̶ ̶l̶o̶c̶a̶l̶ ̶n̶e̶t̶w̶o̶r̶k
+Website too insecure, moved to dashboard page to new route permanently
